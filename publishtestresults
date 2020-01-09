@@ -1,0 +1,8 @@
+# Publish Test Results
+# Publish test results to Azure Pipelines
+steps:
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'VSTest'
+    testResultsFiles: 'PASOutput.trx'
+    searchFolder: 'C:\trx'
