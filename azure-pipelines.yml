@@ -4,5 +4,5 @@ steps:
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'VSTest'
-    testResultsFiles: 'PASOutput.trx'
-    searchFolder: 'C:\trx'
+    testResultsFiles: 'Administrator_HC1n31r0302 2020-01-08 21_13_23.trx'
+    #searchFolder: 'C:\trx'
