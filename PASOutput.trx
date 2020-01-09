@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="640cce5b-4531-4fbf-b4d9-3da60c5e67ea" name="Administrator@HC1n31r0302 2020-01-08 21:13:23" runUser="HC1n31r0302\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2020-01-08T21:13:23.5769129-08:00" queuing="2020-01-08T21:13:23.5769129-08:00" start="2020-01-08T21:13:22.4675327-08:00" finish="2020-01-08T21:13:27.2331874-08:00" />
+  <TestSettings name="default" id="586ede68-0133-4ec1-ad7f-eb136734b741">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="Administrator_HC1n31r0302 2020-01-08 21_13_23" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="7d55d6cd-7002-4e95-85b2-f454db65909d" testId="a8f6720c-e7c5-5adf-5179-4b9cd59a4a61" testName="VerifyConfigSettingsAreNotEmptyTest" computerName="HC1n31r0302" duration="00:00:00.0140099" startTime="2020-01-08T21:13:22.4675327-08:00" endTime="2020-01-08T21:13:22.8112874-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d55d6cd-7002-4e95-85b2-f454db65909d">
+      <Output>
+        <StdOut>Debug Trace:
+vstest.executionengine.exe Information: 0 : [Null]: Running test</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a117d815-c7dd-4ac9-9036-fdc8eaeec3b2" testId="96f63008-c3f6-4e37-72ea-1f1fa042bf85" testName="VerifyConfigSettingsAreReplacedTest" computerName="HC1n31r0302" duration="00:00:00.0005984" startTime="2020-01-08T21:13:22.8269048-08:00" endTime="2020-01-08T21:13:22.8425329-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a117d815-c7dd-4ac9-9036-fdc8eaeec3b2">
+      <Output>
+        <StdOut>Debug Trace:
+vstest.executionengine.exe Information: 0 : [VerifyConfigSettingsAreNotEmptyTest]: Running test</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="12481dae-d8b1-43be-8f64-bbbcc43666f2" testId="f8a4ee43-66f0-87da-6d9f-7f44124380c8" testName="CoreAuthZBVT" computerName="HC1n31r0302" duration="00:00:04.2014642" startTime="2020-01-08T21:13:22.8425329-08:00" endTime="2020-01-08T21:13:27.0613134-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12481dae-d8b1-43be-8f64-bbbcc43666f2">
+      <Output>
+        <StdOut>Debug Trace:
+vstest.executionengine.exe Information: 0 : [VerifyConfigSettingsAreReplacedTest]: Running test
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Requesting token from 'https://login.microsoftonline.com/104edf09-7fc1-459f-8c4e-b062db480b90' with correlationId '93e65697-4377-4a7a-8050-b98dea50c25e'.
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Requesting token from 'https://login.microsoftonline.com/104edf09-7fc1-459f-8c4e-b062db480b90' with correlationId 'e77339e3-535b-4e5c-b1de-0c5edca61e3d'.
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: GET: Uri:https://adminmanagement.local.azurestack.external/subscriptions/bb9f6e9f-e7f7-441d-87f6-ca7a825a5ee3/resourcegroups/rbactest/providers/Microsoft.Authorization/roleAssignments?Slice=&amp;api-version=2015-07-01.
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Calling ARM with client request id 591d96d9-7e39-409a-93ca-b306ae8fde8b
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Language: 
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Service returned expected result with status code OK
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Requesting token from 'https://login.microsoftonline.com/104edf09-7fc1-459f-8c4e-b062db480b90' with correlationId 'a6bf59cd-26b9-447c-bdb0-c5c0bc8e1b5c'.
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Acquiring token with different value for exp claim than '1578550403'
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Acquired token with exp claim '1578550404'
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: GET: Uri:https://adminmanagement.local.azurestack.external/subscriptions/bb9f6e9f-e7f7-441d-87f6-ca7a825a5ee3/resourcegroups/rbactest?Slice=&amp;api-version=2016-07-01.
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Calling ARM with client request id 6302e0de-aa4c-42af-b66f-0a68e832b7f6
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Language: 
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Service returned expected result with status code Forbidden
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Response: {"error":{"code":"AuthorizationFailed","message":"The client 'user1@msazurestack.onmicrosoft.com' with object id '0f1034cf-a4f4-46b8-a875-9438344f3a24' does not have authorization to perform action 'Microsoft.Resources/subscriptions/resourcegroups/read' over scope '/subscriptions/bb9f6e9f-e7f7-441d-87f6-ca7a825a5ee3/resourcegroups/rbactest'."}}
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: GET: Uri:https://adminmanagement.local.azurestack.external/subscriptions/bb9f6e9f-e7f7-441d-87f6-ca7a825a5ee3/resourcegroups/rbactest?Slice=&amp;api-version=2016-07-01.
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Calling ARM with client request id f1328803-85e4-43d7-897d-ad8e8d9c1977
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Language: 
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Service returned expected result with status code OK
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: GET: Uri:https://adminmanagement.local.azurestack.external/subscriptions/bb9f6e9f-e7f7-441d-87f6-ca7a825a5ee3/resourcegroups/rbactest/providers/Microsoft.Authorization/permissions?Slice=&amp;api-version=2015-07-01.
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Calling ARM with client request id d50574f3-1eaa-4ad9-bd72-f5de4c6acfc7
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Language: 
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Service returned expected result with status code OK
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: PUT: Uri:https://adminmanagement.local.azurestack.external/subscriptions/bb9f6e9f-e7f7-441d-87f6-ca7a825a5ee3/resourcegroups/rbactest/providers/Microsoft.Authorization/roleAssignments/85f25779-2829-4f87-8680-bca67cfcace7?Slice=&amp;api-version=2015-07-01.
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Calling ARM with client request id 42494d2b-146b-445d-bf0d-f9fd3ffadef1
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Language: 
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Service returned expected result with status code Created
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Requesting new token for non-admin
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Requesting token from 'https://login.microsoftonline.com/104edf09-7fc1-459f-8c4e-b062db480b90' with correlationId '29b3c89b-38fd-4289-9b26-d99986c32750'.
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Acquiring token with different value for exp claim than '1578550404'
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Acquired token with exp claim '1578550406'
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: GET: Uri:https://adminmanagement.local.azurestack.external/subscriptions/bb9f6e9f-e7f7-441d-87f6-ca7a825a5ee3/resourcegroups/rbactest?Slice=&amp;api-version=2016-07-01.
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Calling ARM with client request id 59e34c10-8816-41fd-849b-dbc40cbccfdd
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Language: 
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Service returned expected result with status code OK
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: GET: Uri:https://adminmanagement.local.azurestack.external/subscriptions/bb9f6e9f-e7f7-441d-87f6-ca7a825a5ee3/resourcegroups/rbactest/providers/Microsoft.Authorization/permissions?Slice=&amp;api-version=2015-07-01.
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Calling ARM with client request id 31c82b86-eaf7-4a28-9669-bb4040b93e5a
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Language: 
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Service returned expected result with status code OK
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: PUT: Uri:https://adminmanagement.local.azurestack.external/subscriptions/bb9f6e9f-e7f7-441d-87f6-ca7a825a5ee3/resourcegroups/rbactest/providers/Microsoft.Authorization/roleAssignments/d6454d04-be8a-407a-8de2-9663cf5ecb5b?Slice=&amp;api-version=2015-07-01.
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Calling ARM with client request id dc903d6e-a678-4fec-846e-129c9c651759
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Language: 
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Service returned expected result with status code Forbidden
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Response: {"error":{"code":"AuthorizationFailed","message":"The client 'user1@msazurestack.onmicrosoft.com' with object id '0f1034cf-a4f4-46b8-a875-9438344f3a24' does not have authorization to perform action 'Microsoft.Authorization/roleAssignments/write' over scope '/subscriptions/bb9f6e9f-e7f7-441d-87f6-ca7a825a5ee3/resourcegroups/rbactest/providers/Microsoft.Authorization/roleAssignments/d6454d04-be8a-407a-8de2-9663cf5ecb5b'."}}
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: DELETE: Uri:https://adminmanagement.local.azurestack.external/subscriptions/bb9f6e9f-e7f7-441d-87f6-ca7a825a5ee3/resourcegroups/rbactest/providers/Microsoft.Authorization/roleAssignments/85f25779-2829-4f87-8680-bca67cfcace7?Slice=&amp;api-version=2015-07-01.
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Calling ARM with client request id 24fd39d2-059c-4ab0-bfbb-952e9ac4723f
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Language: 
+vstest.executionengine.exe Information: 0 : [CoreAuthZBVT]: Service returned expected result with status code OK</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="VerifyConfigSettingsAreNotEmptyTest" storage="c:\test\pas\pas\bvtfvt.authorization.azurestack.dll" id="a8f6720c-e7c5-5adf-5179-4b9cd59a4a61">
+      <Owners>
+        <Owner name="afshins" />
+      </Owners>
+      <Execution id="7d55d6cd-7002-4e95-85b2-f454db65909d" />
+      <TestMethod codeBase="C:\test\PAS\PAS\BvtFvt.Authorization.AzureStack.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="BvtFvt.Authorization.AzureStack.AzureStackPASRPScenarioBVTs" name="VerifyConfigSettingsAreNotEmptyTest" />
+    </UnitTest>
+    <UnitTest name="VerifyConfigSettingsAreReplacedTest" storage="c:\test\pas\pas\bvtfvt.authorization.azurestack.dll" id="96f63008-c3f6-4e37-72ea-1f1fa042bf85">
+      <Owners>
+        <Owner name="afshins" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="QTestSkip" />
+      </TestCategory>
+      <Execution id="a117d815-c7dd-4ac9-9036-fdc8eaeec3b2" />
+      <TestMethod codeBase="C:\test\PAS\PAS\BvtFvt.Authorization.AzureStack.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="BvtFvt.Authorization.AzureStack.AzureStackPASRPScenarioBVTs" name="VerifyConfigSettingsAreReplacedTest" />
+    </UnitTest>
+    <UnitTest name="CoreAuthZBVT" storage="c:\test\pas\pas\bvtfvt.authorization.azurestack.dll" id="f8a4ee43-66f0-87da-6d9f-7f44124380c8">
+      <Owners>
+        <Owner name="afshins" />
+      </Owners>
+      <TestCategory>
+        <TestCategoryItem TestCategory="QTestSkip" />
+      </TestCategory>
+      <Execution id="12481dae-d8b1-43be-8f64-bbbcc43666f2" />
+      <TestMethod codeBase="C:\test\PAS\PAS\BvtFvt.Authorization.AzureStack.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="BvtFvt.Authorization.AzureStack.AzureStackPASRPScenarioBVTs" name="CoreAuthZBVT" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="a8f6720c-e7c5-5adf-5179-4b9cd59a4a61" executionId="7d55d6cd-7002-4e95-85b2-f454db65909d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="96f63008-c3f6-4e37-72ea-1f1fa042bf85" executionId="a117d815-c7dd-4ac9-9036-fdc8eaeec3b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f8a4ee43-66f0-87da-6d9f-7f44124380c8" executionId="12481dae-d8b1-43be-8f64-bbbcc43666f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
